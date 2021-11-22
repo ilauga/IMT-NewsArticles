@@ -6,7 +6,7 @@ Lietotnei ir 3 faili:
 2) HomeScreen.js
 3) ArticleScreen.js
 
-2) un 3) fails jāievieto mapē "pages", jo App.js importē abus failus šādi:
+Pēc tam 2) un 3) fails jāievieto mapē "pages", jo App.js importē abus failus šādi:
 
         import Article from './pages/ArticleScreen';
         import HomeScreen from './pages/HomeScreen';
